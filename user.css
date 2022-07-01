@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(185, 185, 185, 0.592);
+}
+
+.navbar{
+    width: 100%;
+    background: grey;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.logo h6{
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease;
+}
+
+
+
+.nav-links li {
+    list-style: none;
+}
+
+.profile-board{
+    background: rgb(171, 170, 170);
+    height: 20vh;
+    position: relative;
+    bottom: 13vh;
+}
+
+h5{
+    color: rgb(48, 47, 47);
+    position: relative;
+    top: 5vh;
+    font-size: 45px;
+    margin-left: 7vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+input[type=file] {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-left: 90vh;
+}
+
+h2{
+    color: rgb(40, 40, 40);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+table{
+    margin-left: 70vh;
+    position: relative;
+    bottom: 10vh;
+}
+
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right: 50vh;
+    margin-left: 0vh;
+    position: relative;
+    bottom: 0vh;
+    top: 40vh;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rate-one-el{
+    position: relative;
+    right: 9vh;
+    margin-bottom: 15vh;
+}
+
+#rate-two-el{
+    position: relative;
+    right: 9vh;
+    margin-left: 73vh;
+    margin-bottom: 15vh;
+}
+  
+  .upload__box {
+    padding: 40px;
+  }
+  .upload__inputfile {
+
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .upload__btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    min-width: 116px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: #4045ba;
+    border-color: #4045ba;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 14px;
+  }
+  .upload__btn:hover {
+    background-color: unset;
+    color: #4045ba;
+    transition: all 0.3s ease;
+  }
+  .upload__btn-box {
+    margin-bottom: 10px;
+  }
+  .upload__img-wrap {
+    width: 175px;
+	height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  .upload__img-box {
+    width: 175px;
+	height: 250px;
+    padding: 0 100px;
+    margin-bottom: 12px;
+  }
+  .upload__img-close {
+    width: 175px;
+	height: 250px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .upload__img-close:after {
+    content: "✖";
+    font-size: 14px;
+    color: white;
+  }
+  
+  .img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0;
+    
+  }
+
+
+  input[type="file"] {
+    display: block;
+  }
+  .imageThumb {
+    margin-left: 50vh;
+    width: 175px;
+	height: 250px;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+    bottom: 30vh;
+    position: relative;
+  }
+  .pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+  }
+
+
+.remove{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 355px) {
+    .navbar{
+        width: 100%;
+        background: grey;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+    }
+
+    .logo h6{
+        font-size: 30px;
+    }
+
+    .profile-board{
+        background: rgb(171, 170, 170);
+        height: 10vh;
+        position: relative;
+        bottom: 7vh;
+    }
+
+    h5{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    input[type="file"] {
+        display: block;
+        font-size: 10px;
+        position: relative;
+        right: 70vh;
+        position: relative;
+        top: 5vh;
+      }
+      .imageThumb {
+        margin-left: 5vh;
+        width: 20vh;
+        height: 26vh;
+        border: 2px solid;
+        padding: 1px;
+        cursor: pointer;
+        bottom: 30vh;
+        position: relative;
+      }
+      .pip {
+        display: inline-block;
+        margin: 10px 10px 0 0;
+      }
+    
+    
+    .remove{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    button{
+        position: relative;
+        right: 125vh;
+    }
+    
+
+}
+
