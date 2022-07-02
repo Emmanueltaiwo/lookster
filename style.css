@@ -101,6 +101,8 @@ a:hover{
 }
 
 
+	
+
 @media screen and (min-width: 340px) {
     h1{
         font-size: 30px;
@@ -191,3 +193,23 @@ a:hover{
         margin-left: 17vh;
     }
 }
+
+
+@media screen and (max-width: 296px){
+    h1{
+        font-size: 30px;
+    }
+
+    .form-container{
+        width: 50vh;
+        height: 65vh;
+        position: relative;
+        right: 52vh;
+    }
+
+    a{
+        font-size: 15px;
+        margin-left: 15vh;
+    }
+}
+
