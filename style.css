@@ -80,6 +80,18 @@ a:hover{
     background:rgb(185, 185, 185);
 }
 
+.flag{
+    position: relative;
+    top: 5vh;
+    margin-left: 90vh;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 339px){
