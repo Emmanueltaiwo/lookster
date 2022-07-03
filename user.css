@@ -290,19 +290,71 @@ button{
     
     button{
         position: relative;
-        right: 135vh;
-       top: 35vh;
+        right: 153vh;
+        top: 40vh;
     }
     
 
     #rate-one-el {
       position: relative;
       right: 60vh;
+      margin-bottom: 15vh;
     }
 
     #rate-two-el {
       position: relative;
-      right: 110vh;
+      right: 125vh;
     }
 }
 
+
+
+@media screen and (max-width: 415px) {
+  .profile-board{
+    height: 10vh;
+    margin-top: 10vh;
+  }
+
+  h5{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  input[type="file"] {
+    display: block;
+    font-size: 10px;
+    position: relative;
+    right: 75vh;
+    position: relative;
+    top: 5vh;
+  }
+
+  .imageThumb {
+    margin-left: 5vh;
+    width: 15vh;
+    height:20vh;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+    bottom: 30vh;
+    position: relative;
+  }
+
+  button{
+    position: relative;
+    right: 140vh;
+    top: 30vh;
+  }
+
+  #rate-one-el{
+    position: relative;
+    right: 60vh;
+    bottom: 5vh;
+  }
+
+  #rate-two-el{
+    position: relative;
+    right: 130vh;
+    bottom: 2vh;
+  }
+   }
