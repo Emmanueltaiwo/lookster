@@ -302,14 +302,18 @@ a:hover{
 @media screen and (max-width: 415px) {
    h1{
     font-size: 40px;
+    margin-right: 10vh;
    }
    .form-container{
-    width: 47vh;
-    
+    width: 40vh; 
    }
 
    h5{
     font-size: 20px;
    }
-    
+
+   a{
+    position: relative;
+    right: 5vh;
+   }
     }
