@@ -328,4 +328,10 @@ a:hover{
     position: relative;
     right: 5vh;
    }
+
+   .flag{
+    position: relative;
+    top: 5vh;
+    margin-left: 16vh;
+}
     }
