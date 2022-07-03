@@ -299,47 +299,17 @@ a:hover{
 }
 
 
-@media screen and (min-width: 719px) {
-    h1{
-        font-size: 70px;
-        text-align: center;
-        position: relative;
-        right: 5vh;
-    }
-}
-
-.form-container{
-    width: 36vh;
-    height: 40vh;
-    position: relative;
-    right: 54vh;
-}
-
-h3{
-    font-size: 60px;
-}
-
-h4{
+@media screen and (max-width: 415px) {
+   h1{
     font-size: 40px;
-}
+   }
+   .form-container{
+    width: 47vh;
+    
+   }
 
-h5{
-    font-size: 30px;
-}
-
-    a{
-        color:rgb(185, 185, 185);
-        background: rgba(0, 0, 0, 0.552);
-        font-size: 35px;
-        text-decoration: none;
-        border-radius: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 35px;
-        padding-bottom:35px;
-        margin-left: 10vh;
-        transition: 0.3s all ease-in-out;
-        position: relative;
-        bottom: 2vh;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   h5{
+    font-size: 20px;
+   }
+    
     }
